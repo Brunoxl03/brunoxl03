@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="brunoxl.MainPage">
+             x:Class="brunoxl.MainPage"
+             Shell.NavBarIsVisible="false">
        <Grid>
         
             <Image
@@ -10,17 +11,31 @@
 
             <Label
                 Text="a lenda da capa negra"
-                TextColor="White"
-                Margin="15"
+                TextColor="#1b4180"
+                Margin="40"
                 FontSize="55"
-                FontFamily="brogte.otf"
+                FontFamily="Brogte"
                 HorizontalOptions="Center"
-                VerticalOptions="Center"/>
+                VerticalOptions="Start"/>
 
             <Button 
                 Text="jogar"
+                Margin="10,0,10,100"
+                HeightRequest="70"
                 BackgroundColor="#2d387d"
-                FontSize="20"
-                FontFamily=""/>
+                FontSize="25"
+                FontFamily="Brogte"
+                 VerticalOptions="End"/>
+
+            <Button 
+                Text="sobre"
+                Margin="10,0,10,10"
+                HeightRequest="70"
+                BackgroundColor="#2d387d"
+                FontSize="25"
+                FontFamily="Brogte"
+                 VerticalOptions="End"/>
+
+
          </Grid>
 </ContentPage>
