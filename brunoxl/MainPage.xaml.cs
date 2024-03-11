@@ -9,6 +9,13 @@ public partial class MainPage : ContentPage
 		InitializeComponent();
 	}
 
-	
-}
+  	void QuandoClicar(object sender,EventArgs args)
+    {
+		Application.Current.MainPage = new ComeçoPage();
+	}
 
+	void QuandoClica(object sender,EventArgs args)
+    {
+		
+	}
+}

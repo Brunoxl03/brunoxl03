@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="brunoxl.ComeçoPage"
+             Shell.NavBarIsVisible="false"
+             BackgroundColor="Black">
+            
+ <Grid>
+
+     <label
+      Text=""
+      TextColor="White"
+      FontSize="50"
+      FontFamily=""
+      HorizontalOptions="Center"
+      VerticalOptions="Center"/>
+
+    <Button 
+         Text=""
+         Margin="10,0,10,100"
+         HeightRequest="70"
+         BackgroundColor="#2d387d"
+         FontSize="25"
+         FontFamily="Brogte"
+         VerticalOptions="End"/>
+
+    <Button 
+         Text=""
+         Margin="10,0,10,10"
+         HeightRequest="70"
+         BackgroundColor="#2d387d"
+         FontSize="25"
+         FontFamily=""
+         VerticalOptions="End"/>
+
+
+
+
+
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ContentPage>

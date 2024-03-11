@@ -20,6 +20,7 @@
 
             <Button 
                 Text="jogar"
+                Clicked="QuandoClicar"
                 Margin="10,0,10,100"
                 HeightRequest="70"
                 BackgroundColor="#2d387d"
@@ -29,6 +30,7 @@
 
             <Button 
                 Text="sobre"
+                Clicked="QuandoClica"
                 Margin="10,0,10,10"
                 HeightRequest="70"
                 BackgroundColor="#2d387d"
