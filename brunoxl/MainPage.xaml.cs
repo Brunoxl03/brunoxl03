@@ -14,8 +14,12 @@ public partial class MainPage : ContentPage
 		Application.Current.MainPage = new ComeçoPage();
 	}
 
-	void QuandoClica(object sender,EventArgs args)
+	void QuandoClicaNoSobre (object sender,EventArgs args)
     {
-		
+		frameAbout.IsVisible = true;
+	}
+	void ClicouVoltar (object sender,EventArgs args)
+    {
+		frameAbout.IsVisible = false;
 	}
 }
