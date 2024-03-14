@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="brunoxl.ComeçoPage"
+             x:Class="brunoxl.JogoPage2"
              Shell.NavBarIsVisible="false"
              BackgroundColor="Black">
-            
- <Grid>
-<Grid.RowDefinitions>
+
+     <Grid>
+    <Grid.RowDefinitions>
       <RowDefinition Height="*"/>
       <RowDefinition Height="90"/>
       <RowDefinition Height="90"/>
@@ -17,36 +17,33 @@
            VerticalOptions="Fill"
            Grid.Row="0"/>
 
-     <Label
-      Text="Olá forasteiro, oque faz perdido pela floresta uma hora dessa?"
+       <Label
+      Text="Você continua seguindo em frente e acaba vendo uma movimentação suspeita a frente, oque voce faz?"
+      Margin="15,0,0,0"
       TextColor="White"
       FontSize="25"
-      FontFamily="brogte"
       HorizontalOptions="Fill"
       VerticalOptions="Center"
       Grid.Row="0"/>
-    <Button 
-         Text="Me perdi voltando pra casa"
-         Clicked="Clicoubotao1"
+
+       <Button 
+         Text="Ignorar e Seguir em Frente"
          Margin="0,0,0,0"
          HeightRequest="70"
          BackgroundColor="#2d387d"
          FontSize="20"
-         FontFamily="brogte"
          VerticalOptions="End"
          Grid.Row="1"/>
 
-    <Button 
-         Text="Estou buscando algo"
-         Clicked="Clicoubotao2"
+        <Button 
+         Text="Dar a volta e achar outro caminho"
          Margin="0,0,0,0"
          HeightRequest="70"
          BackgroundColor="#2d387d"
          FontSize="20"
-         FontFamily="brogte"
          VerticalOptions="End"
          Grid.Row="2"/>
-   
-   </Grid>
+
+    </Grid>   
 
 </ContentPage>
