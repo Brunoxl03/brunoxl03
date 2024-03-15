@@ -5,50 +5,50 @@
              Shell.NavBarIsVisible="false"
              BackgroundColor="Black">
 
-     <Grid>
+
+    <Frame BackgroundColor="#5386c9"
+            CornerRadius="20"
+            VerticalOptions="Fill"
+            Grid.Row="0">
+
+        <Grid>
     <Grid.RowDefinitions>
       <RowDefinition Height="*"/>
       <RowDefinition Height="90"/>
       <RowDefinition Height="90"/>
     </Grid.RowDefinitions>
 
-    <Frame BackgroundColor="#5386c9"
-           CornerRadius="20"
-           VerticalOptions="Fill"
-           Grid.Row="0"/>
+      <Label
+        Text="Você continua seguindo em frente e acaba vendo uma movimentação suspeita a frente, oque voce faz?"
+        Margin="15,0,0,0"
+        TextColor="White"
+        FontSize="25"
+        FontFamily=""
+        HorizontalOptions="Fill"
+        VerticalOptions="Center"
+        Grid.Row="0"/>
 
-       <Label
-      Text="Você continua seguindo em frente e acaba vendo uma movimentação suspeita a frente, oque voce faz?"
-      Margin="15,0,0,0"
-      TextColor="White"
-      FontSize="25"
-      FontFamily=""
-      HorizontalOptions="Fill"
-      VerticalOptions="Center"
-      Grid.Row="0"/>
+      <Button 
+        Text="Ignorar e Seguir em Frente"
+        Clicked="ClicouPerdeu"
+        Margin="0,0,0,0"
+        HeightRequest="70"
+        BackgroundColor="#2d387d"
+        FontSize="20"
+        VerticalOptions="End"
+        Grid.Row="1"/>
 
-       <Button 
-         Text="Ignorar e Seguir em Frente"
-         Clicked="Voltar"
-         Margin="0,0,0,0"
-         HeightRequest="70"
-         BackgroundColor="#2d387d"
-         FontSize="20"
-         VerticalOptions="End"
-         Grid.Row="1"/>
+      <Button 
+        Text="Dar a volta e achar outro caminho"
+        Clicked="Botao2"
+        Margin="0,0,0,0"
+        HeightRequest="70"
+        BackgroundColor="#2d387d"
+        FontSize="20"
+        VerticalOptions="End"
+        Grid.Row="2"/>
+    </Grid>    
 
-        <Button 
-         Text="Dar a volta e achar outro caminho"
-         Clicked="Botao2"
-         Margin="0,0,0,0"
-         HeightRequest="70"
-         BackgroundColor="#2d387d"
-         FontSize="20"
-         VerticalOptions="End"
-         Grid.Row="2"/>
-
-
-    </Grid>   
-
- </ContentPage>
+    </Frame>
+</ContentPage>
             

@@ -9,9 +9,17 @@ public partial class JogoPage1 : ContentPage
 		InitializeComponent();
 	}
 
-	oid Voltar(object sender,EventArgs args)
-    {
-		Application.Current.MainPage = new JogoPage1();
+	void Voltar(object sender, EventArgs args)
+	{
+
 	}
 
+	void Botao2(object sender, EventArgs args)
+	{
+		
+	}
+	void ClicouPerdeu(object sender, EventArgs args)
+	{
+		Application.Current.MainPage = new PerdeuPage();
+	}
 }

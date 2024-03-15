@@ -4,49 +4,50 @@
              x:Class="brunoxl.ComeçoPage"
              Shell.NavBarIsVisible="false"
              BackgroundColor="Black">
-            
- <Grid>
-<Grid.RowDefinitions>
-      <RowDefinition Height="*"/>
-      <RowDefinition Height="90"/>
-      <RowDefinition Height="90"/>
-    </Grid.RowDefinitions>
 
-    <Frame BackgroundColor="#5386c9"
-           CornerRadius="20"
-           VerticalOptions="Fill"
-           Grid.Row="0"/>
+            <Frame BackgroundColor="#5386c9"
+                  CornerRadius="20"
+                  VerticalOptions="Fill"
+                  Grid.Row="0">
 
-     <Label
-      Text="Olá forasteiro, oque faz perdido pela floresta uma hora dessa?"
-      TextColor="White"
-      FontSize="25"
-      FontFamily="brogte"
-      HorizontalOptions="Fill"
-      VerticalOptions="Center"
-      Grid.Row="0"/>
-    <Button 
-         Text="Me perdi voltando pra casa"
-         Clicked="Clicoubotao1"
-         Margin="0,0,0,0"
-         HeightRequest="70"
-         BackgroundColor="#2d387d"
-         FontSize="20"
-         FontFamily="brogte"
-         VerticalOptions="End"
-         Grid.Row="1"/>
+       <Grid>
+            <Grid.RowDefinitions>
+                  <RowDefinition Height="*"/>
+                  <RowDefinition Height="90"/>
+                  <RowDefinition Height="90"/>
+            </Grid.RowDefinitions>
 
-    <Button 
-         Text="Estou buscando algo"
-         Clicked="Clicoubotao2"
-         Margin="0,0,0,0"
-         HeightRequest="70"
-         BackgroundColor="#2d387d"
-         FontSize="20"
-         FontFamily="brogte"
-         VerticalOptions="End"
-         Grid.Row="2"/>
-   
-   </Grid>
+                  <Label
+                        Text="Olá forasteiro, oque faz perdido pela floresta uma hora dessa?"
+                        TextColor="White"
+                        FontSize="25"
+                        FontFamily="brogte"
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Center"
+                        Grid.Row="0"/>
+                  <Button 
+                        Text="Me perdi voltando pra casa"
+                        Clicked="Clicoubotao1"
+                        Margin="0,0,0,0"
+                        HeightRequest="70"
+                        BackgroundColor="#2d387d"
+                        FontSize="20"
+                        FontFamily="brogte"
+                        VerticalOptions="End"
+                        Grid.Row="1"/>
+
+                  <Button 
+                        Text="Estou buscando algo"
+                        Clicked="Clicoubotao2"
+                        Margin="0,0,0,0"
+                        HeightRequest="70"
+                        BackgroundColor="#2d387d"
+                        FontSize="20"
+                        FontFamily="brogte"
+                        VerticalOptions="End"
+                        Grid.Row="2"/>
+
+      </Grid>
+            </Frame>
 
 </ContentPage>
