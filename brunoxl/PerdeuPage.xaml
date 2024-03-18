@@ -5,12 +5,7 @@
              Shell.NavBarIsVisible="false"
              BackgroundColor="Black">
 
-    <Grid>
-        <Grid.RowDefinitions>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="90"/>
-        <RowDefinition Height="90"/>
-        </Grid.RowDefinitions>
+    
 
         <Frame
             BackgroundColor="#5386c9"
@@ -18,9 +13,16 @@
             VerticalOptions="Fill"
             Grid.Row="0">
 
+    <Grid>
+        <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="90"/>
+        <RowDefinition Height="90"/>
+        </Grid.RowDefinitions>
+
             <Label
-            Text="Um Lobo te achou e te atacou. Vc Perdeu"
-            Margin="15,0,0,0"
+            Text="Um Lobo te achou e te atacou. Vc Perdeu, tente novamente"
+            Margin="15,80,0,0"
             TextColor="White"
             FontSize="25"
             HorizontalOptions="Fill"
@@ -36,8 +38,7 @@
             FontSize="20"
             VerticalOptions="End"
             Grid.Row="1"/>
-
+    </Grid>
         </Frame>
-   </Grid>
 
 </ContentPage>

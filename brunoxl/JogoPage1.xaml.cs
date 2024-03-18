@@ -16,7 +16,7 @@ public partial class JogoPage1 : ContentPage
 
 	void Botao2(object sender, EventArgs args)
 	{
-		
+		Application.Current.MainPage = new JogoPage3();
 	}
 	void ClicouPerdeu(object sender, EventArgs args)
 	{
