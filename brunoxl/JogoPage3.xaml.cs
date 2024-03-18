@@ -8,5 +8,12 @@ public partial class JogoPage3 : ContentPage
 	{
 		InitializeComponent();
 	}
-
+void botao4(object sender, EventArgs args)
+	{
+		Application.Current.MainPage = new JogoPage4();
+	}
+	void botao5(object sender, EventArgs args)
+	{
+		Application.Current.MainPage = new PerdeuPage();
+    }
 }

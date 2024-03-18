@@ -18,7 +18,7 @@
     </Grid.RowDefinitions>
 
         <Label
-        Text="Você continua seguindo em frente e acaba vendo uma movimentação suspeita a frente, oque voce faz?"
+        Text="Você"
         Margin="15,0,0,0"
         TextColor="White"
         FontSize="25"

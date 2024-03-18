@@ -21,7 +21,7 @@
         </Grid.RowDefinitions>
 
             <Label
-            Text="Um Lobo te achou e te atacou. Vc Perdeu, tente novamente"
+            Text="Vc Perdeu, tente novamente"
             Margin="15,80,0,0"
             TextColor="White"
             FontSize="25"
