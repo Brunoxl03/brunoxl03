@@ -15,6 +15,6 @@ public partial class ComeçoPage : ContentPage
 	}
 	void Clicoubotao2(object sender,EventArgs args)
     {
-		Application.Current.MainPage = new JogoPage2();
+		Application.Current.MainPage = new JogoPage1();
 	}
 }

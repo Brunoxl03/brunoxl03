@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="brunoxl.JogoPage4"
+             x:Class="brunoxl.JogoPage5"
              Shell.NavBarIsVisible="false"
              BackgroundColor="Black">
 
@@ -17,17 +17,17 @@
             </Grid.RowDefinitions>
 
             <Label
-                Text="você conseguiu chegar ao castelo e encontrou um cavaleiro, ele propoe  uma tregua, oque voê faz?"
+                Text="você lutou contra o cavaleiro e ganhou conseguiu oque queria parabens,e entao sua jornada esta completa"
                 Margin="0,80,0,0"
                 TextColor="White"
                 FontSize="25"
                 HorizontalOptions="Fill"
                 VerticalOptions="Center"
                 Grid.Row="0"/>
-
-            <Button 
-                Text="aceitar tregua"
-                Clicked="botao6"
+                
+                 <Button 
+                Text="voltar ao inicio"
+                Clicked="botão9"
                 Margin="0,0,0,0"
                 HeightRequest="70"
                 BackgroundColor="#2d387d"
@@ -35,15 +35,6 @@
                 VerticalOptions="End"
                 Grid.Row="1"/>
 
-            <Button 
-                Text="não aceitar e lutar"
-                Clicked="botao7"
-                Margin="0,0,0,0"
-                HeightRequest="70"
-                BackgroundColor="#2d387d"
-                FontSize="20"
-                VerticalOptions="End"
-                Grid.Row="2"/>
         </Grid>
 
     </Frame>

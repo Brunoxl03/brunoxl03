@@ -6,12 +6,13 @@ public partial class JogoPage4 : ContentPage
 	{
 		InitializeComponent();
 	}
-    void botao4(object sender, EventArgs args)
+    void botao6(object sender, EventArgs args)
 	{
-
+     Application.Current.MainPage = new PerdeuPage();
 	}
-	void botao5(object sender, EventArgs args)
-	{
 
+	void botao7(object sender, EventArgs args)
+	{
+    Application.Current.MainPage = new JogoPage5();
     }
 }
